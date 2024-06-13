@@ -1,0 +1,16 @@
+:root {
+  --bulma-body-background-color: #121212;
+}
+
+html {
+  width: 100dvw;
+  height: 100dvh;
+
+  overflow: none;
+
+  background-color: aqua;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
