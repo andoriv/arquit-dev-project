@@ -3,7 +3,8 @@
 
 <title><?php echo APP_NAME; ?></title>
 
-<link rel="stylesheet" href="<?php APP_URL?>app/views/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
 <link rel="stylesheet" href="<?php APP_URL?>app/views/css/estilos.css">
 <link rel="stylesheet" href="<?php APP_URL?>app/views/css/sweetalert2.min.css">
 

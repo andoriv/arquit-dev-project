@@ -2,7 +2,7 @@
   namespace app\controllers;
   use app\models\viewsModel;
 
-  class ViewsController extends viewsModel {
+  class viewsController extends viewsModel {
     public function obtenerVistasControlador($vista) {
       if($vista != "") {
         $respuesta = $this->obtenerVistasModelo($vista);

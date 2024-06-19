@@ -1,16 +1,20 @@
-:root {
-  --bulma-body-background-color: #121212;
+body, html {
+  height: 100%;
+  width: 100%;
 }
 
-html {
-  width: 100dvw;
-  height: 100dvh;
-
-  overflow: none;
-
-  background-color: aqua;
+.main-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
+.main-container > .login,
+.main-container > .hero-body {
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+  min-width: 300px;
 }
